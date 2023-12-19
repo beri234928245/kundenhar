@@ -4,8 +4,8 @@ body {
 
 #kundenhar {
     display: grid;
-    height:100vh; 
     width:100vw;
+    height: 100vh;
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 1fr 10% 35% 35% 2fr;
     grid-template-areas:
@@ -18,50 +18,88 @@ body {
 
 header {
     grid-area: hd;
-    background-color: blue;
+    background-color: #2980b9; 
     display: grid;
     justify-content: space-around;
     align-items: center;
+    font-family:'Roboto Mono', monospace;
 }
 
 nav {
     grid-area: nv;
-    background-color: brown;
-    display: grid;
+    background-color: #2980b9;
+    display: flex;
     align-items: center;
     justify-content: center;
+    font-family:'Roboto Mono', monospace;
+    font-weight: bolder;
 }
+
+
 
 .section1 {
     grid-area: sc1;
-    background-color: cadetblue;
-    align-items: center;
-    justify-content: center;
+    background-color: pink;
+    align-items: left;
+    justify-content: left;
     display: grid;
+    font-family:'Roboto Mono', monospace;
+
 }
 
 .section2 {
     grid-area: sc2;
-    background-color: pink;
+    background-color: white;
     display: grid;
-    align-items: center;
+    align-items: center ;
     justify-content: center;
+    font-family:'Roboto Mono', monospace;
+    padding-left: 75px;
 }
 
 .section3 {
     grid-area: sc3;
-    background-color: blueviolet;
-    align-items: center;
+    background-color: pink;
+    align-items: left ;
     justify-content: center;
     display: grid;
-}
+    padding-left: 25px ;
 
-footer {
-    grid-area: ft;
-    background-color: burlywood;
-    display: grid;
-    align-items: center;
-    justify-content: center;
 }
 
 
+.knappar {
+    padding: 15px 32px;
+    border-radius: 25px;
+    text-align: center;
+    color: black;
+    background-color: pink;
+    justify-content:space-between;
+    align-items:normal;
+}
+
+li {
+    text-decoration: underline;
+    
+
+}
+
+.applewatch {
+    height: 240px;
+    width: 240px;
+}
+
+.futuretech {
+    height: 240px;
+    width: 240px;
+}
+
+h1 {
+    align-items: center;
+    justify-content: center;
+}
+
+.documents {
+    height: 240px;
+    width: 240px;
+}
