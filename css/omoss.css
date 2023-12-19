@@ -11,9 +11,9 @@ body {
     grid-template-areas:
     'hd hd hd hd' 
     'nv nv nv nv'
-    'sc1 sc2 sc2 sc3'
-    'sc1 sc2 sc2 sc3'
-    'sc1 sc2 sc2 sc3' ;
+    'sc1 sc2 sc2 sc2'
+    'sc1 sc2 sc2 sc2'
+    'sc1 ft ft ft ' ;
 }
 
 header {
@@ -47,27 +47,6 @@ nav {
 
 }
 
-.section2 {
-    grid-area: sc2;
-    background-color: white;
-    display: grid;
-    align-items: center ;
-    justify-content: center;
-    font-family:'Roboto Mono', monospace;
-    padding-left: 75px;
-}
-
-.section3 {
-    grid-area: sc3;
-    background-color: pink;
-    align-items: left ;
-    justify-content: center;
-    display: grid;
-    padding-left: 25px ;
-
-}
-
-
 .knappar {
     padding: 15px 32px;
     border-radius: 25px;
@@ -80,25 +59,14 @@ nav {
 
 li {
     text-decoration: underline;
-    
 }
 
-.applewatch {
-    height: 240px;
-    width: 240px;
-}
-
-.futuretech {
-    height: 240px;
-    width: 240px;
-}
-
-h1 {
+.section2 {
+    grid-area: sc2;
+    background-color: white;
     align-items: center;
     justify-content: center;
-}
-
-.documents {
-    height: 240px;
-    width: 240px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: lighter;
+    padding-left: 75px;
 }
