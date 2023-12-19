@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+}
+
+#kundenhar {
+    display: grid;
+    height:100vh; 
+    width:100vw;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 1fr 10% 35% 35% 2fr;
+    grid-template-areas:
+    'hd hd hd hd' 
+    'nv nv nv nv'
+    'sc1 sc2 sc2 sc3'
+    'sc1 sc2 sc2 sc3'
+    'ft ft ft ft' ;
+}
+
+header {
+    grid-area: hd;
+    background-color: blue;
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    grid-area: nv;
+    background-color: brown;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.section1 {
+    grid-area: sc1;
+    background-color: cadetblue;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+}
+
+.section2 {
+    grid-area: sc2;
+    background-color: pink;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.section3 {
+    grid-area: sc3;
+    background-color: blueviolet;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+}
+
+footer {
+    grid-area: ft;
+    background-color: burlywood;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+
