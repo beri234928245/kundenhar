@@ -1,0 +1,109 @@
+body { 
+    margin: 0;
+}
+
+#anställda {
+    display: grid;
+    width:100vw;
+    height: 100vh;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 1fr 10% 35% 35% 2fr;
+    grid-template-areas:
+    'hd hd hd hd' 
+    'nv nv nv nv'
+    'sc1 sc2 sc3 sc4'
+    'sc1 sc2 sc3 sc4'
+    'sc1 sc2 sc3 sc4 ' ;
+
+}
+
+header {
+    grid-area: hd;
+    background-color: #2980b9; 
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    font-family:'Roboto Mono', monospace;
+}
+
+nav {
+    grid-area: nv;
+    background-color: #2980b9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Roboto Mono', monospace;
+    font-weight: bolder;
+}
+
+.knappar {
+    padding: 15px 32px;
+    border-radius: 25px;
+    text-align: center;
+    color: black;
+    background-color: pink;
+    justify-content:space-between;
+    align-items:normal;
+}
+
+.section1 {
+    display: flex;
+    background-color: pink;
+    grid-area: sc1;
+    flex-direction: column;
+    align-items:right;
+    justify-content: right;
+    padding-left: 10px;
+}
+
+.section2 {
+    display: flex;
+    background-color: #2980b9;
+    grid-area: sc2;
+    flex-direction: column;
+    align-items: right;
+    justify-content: right;
+    padding-left: 10px;
+}
+
+.section3 {
+    display: flex;
+    background-color: pink;
+    grid-area: sc3;
+    flex-direction: column;
+    align-items: right;
+    justify-content: right;
+    padding-left: 10px;
+}
+
+.section4 {
+    display: flex;
+    background-color: #2980b9;
+    grid-area: sc4;
+    flex-direction: column;
+    align-items: right;
+    justify-content: right;
+    padding-left: 10px;
+}
+
+.geronimo {
+    height: auto;
+    width: 105px;
+}
+
+.thea {
+    height: auto;
+    width: 105px;
+}
+
+.benjamin {
+    height: 125px;
+    width: 100px;
+}
+
+.trap {
+    height: auto;
+    width: 105px;
+}
+
+
