@@ -19,8 +19,8 @@ body {
 header {
     grid-area: hd;
     background-color: #2980b9; 
-    display: grid;
-    justify-content: space-around;
+    display: flex;
+    justify-content: center;
     align-items: center;
     font-family:'Roboto Mono', monospace;
 }
@@ -101,4 +101,14 @@ h1 {
 .documents {
     height: 240px;
     width: 240px;
+}
+
+.hellokitty {
+    height: 75px;
+    width: 75px;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
 }
